@@ -24,3 +24,8 @@ dmnw [live]
 
 # TODO
 - download newest software versions
+
+# Lessons Learned
+- [Live Reload](https://github.com/nwjs/nw.js/wiki/Livereload-nw.js-on-changes)
+- npm install nw -g
+- run app which is not packaged: nw (in app folder)
