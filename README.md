@@ -1,31 +1,31 @@
 # dm-nw
-* Shortcut: dmnw
 
-# OS
-- testet with:
-  - Ubuntu 14.04
+## Description
+*
 
-# Jobs
-
-## run
-- choose between files if many are existent
-
+## Run
 ```
-dmnw [run]
+dmnw [yml]
+dm-nw [yml]
 ```
 
-## livereload
--
+## Install
+
 ```
-dmnw [live]
+npm install dm-nw -g
 ```
 
-# Tasks
+## Tasks
 
-# TODO
-- download newest software versions
+## Config
+* you can place a .dm-nw.json file in your home directory (~/.dm-nw.json)
+* the following things are allowed at the moment
+```javascript
+{
+}
+```
 
-# Lessons Learned
+## Lessons Learned
 - [Live Reload](https://github.com/nwjs/nw.js/wiki/Livereload-nw.js-on-changes)
 - npm install nw -g
 - run app which is not packaged: nw (in app folder)
